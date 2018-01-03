@@ -34,10 +34,10 @@ gulp.task('styles', function() {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src("src/js/app.js")
+    return gulp.src("src/js/*.js")
         .pipe(sourcemaps.init())
         .pipe(babel())
-        .pipe(concat("app.js"))
+        .pipe(concat("*.js"))
         .pipe(sourcemaps.write("."))
         .pipe(gulp.dest(path.build.js));
 });

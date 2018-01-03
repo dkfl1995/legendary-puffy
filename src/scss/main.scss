@@ -1,3 +1,9 @@
+$maincolor : #49ADC6;
+$lightmaincolor : #D1E0B4;
+$seclightcolor : #D1E0B4;
+$darkmaincolor : #1A758F;
+$secdarkcolor : #142746;
+
 body {
-    background-color: wheat
+    background-color: $maincolor
 }

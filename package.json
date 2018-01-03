@@ -27,6 +27,7 @@
   },
   "author": "Vlad Vityaz",
   "dependencies": {
+    "nedb": "^1.8.0",
     "node-gyp": "^3.6.2",
     "node-sass": "^4.7.2",
     "react": "^16.2.0",

@@ -24,7 +24,7 @@ var App = function (_React$Component) {
             var welc = React.createElement(
                 'p',
                 null,
-                'Welcome!'
+                'Welcome'
             );
             return welc;
         }
