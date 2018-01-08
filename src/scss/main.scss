@@ -1,9 +1,21 @@
+//Color-palette
 $maincolor : #49ADC6;
 $lightmaincolor : #D1E0B4;
-$seclightcolor : #D1E0B4;
+$seclightcolor : #cee89b;
 $darkmaincolor : #1A758F;
 $secdarkcolor : #142746;
 
+//Apologized device display res
+$xlarge : 1440px;
+$large : 1280px;
+$medium : 1024px;
+$small : 800px;
+$xsmall : 640px;
+
+//first head-to-head website`s look setup
 body {
-    background-color: $maincolor
-}
+    min-height: 100%;
+    min-width: 100%
+} 
+
+

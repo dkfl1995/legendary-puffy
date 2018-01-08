@@ -1,4 +1,5 @@
 'use esversion: 6';
+const xhttp = new XMLHttpRequest();
 
 class App extends React.Component{
     render(){

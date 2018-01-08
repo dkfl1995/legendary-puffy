@@ -1,0 +1,1 @@
+{"version":3,"sources":["tempCodeRunnerFile.js"],"names":["db","filename","loadDatabase"],"mappings":";;AAAA;;;;;;AAEA,IAAMA,KAAK,mBAAS,EAACC,UAAW,OAAZ,EAAT,CAAX;AACAD,GAAGE,YAAH","file":"tempCodeRunnerFile.js","sourcesContent":["import NEDB from 'nedb';\r\n\r\nconst db = new NEDB({filename : 'users'});\r\ndb.loadDatabase();\r\n"]}
