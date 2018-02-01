@@ -1,10 +1,12 @@
+//Foundation
+
 //Color-palette
 $maincolor : #49ADC6;
 $lightmaincolor : #D1E0B4;
 $seclightcolor : #cee89b;
 $darkmaincolor : #1A758F;
 $secdarkcolor : #142746;
-
+$asdf: #134432;
 //Apologized device display res
 $xlarge : 1440px;
 $large : 1280px;
@@ -13,9 +15,18 @@ $small : 800px;
 $xsmall : 640px;
 
 //first head-to-head website`s look setup
-body {
-    min-height: 100%;
-    min-width: 100%
+//setting up layout classes
+html, body {
+    background: linear-gradient(to bottom,$darkmaincolor,#88a9ff)
 } 
 
+.button{
+    padding: .8em;
+    color: $lightmaincolor;
+    width: 20%
 
+}
+
+.dialog{
+
+}

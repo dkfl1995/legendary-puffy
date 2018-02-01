@@ -1,5 +1,13 @@
+html,
 body
 {
-    min-width: 100%;
-    min-height: 100%;
+    background: linear-gradient(to bottom, #1a758f, #88a9ff);
+}
+
+.button
+{
+    width: 20%;
+    padding: .8em;
+
+    color: #d1e0b4;
 }
